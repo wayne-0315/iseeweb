@@ -29,6 +29,7 @@ function addnews() {
         data: fromData,
         processData: false,
         contentType: false,
+        async: false,
         success: function (res) {
             if (res.status == 0) {
                 //alert("上傳成功");
